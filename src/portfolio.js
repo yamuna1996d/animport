@@ -1,9 +1,15 @@
 ﻿/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
+// npm install --save-dev @iconify/react @iconify-icons/simple-icons
+import styled from 'styled-components'
+import {Mongodb} from '@styled-icons/simple-icons/Mongodb'
+//import mongodbIcon from '@iconify-icons/simple-icons/mongodb';
 
 import emoji from "react-easy-emoji";
-
+const Mongo = styled(Mongodb)`
+  color: #868e96;
+`
 const illustration = {
   animated: true // set to false to use static SVG
 };
@@ -50,11 +56,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      //skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      //skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     // {
@@ -62,36 +68,28 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-sass"
     // },
     {
-      skillName: "JavaScript",
+      //skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      //skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      //skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "flutter",
-      fontAwesomeClassname: "fab fa-flutter"
-    },
-    {
-      skillName: "npm",
+      //skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      //skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
+      //skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "mongodb",
-      fontAwesomeClassname: "fas fa-mongodb"
     },
   ],
   display: true // Set false to hide this section, defaults to true
